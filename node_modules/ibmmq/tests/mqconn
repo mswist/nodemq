@@ -1,0 +1,14 @@
+
+r="`pwd`/.."
+cd $r
+#npm link
+cd $r/samples
+
+tput clear
+
+ unset LD_LIBRARY_PATH
+
+
+
+node amqsconn.js
+
